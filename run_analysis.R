@@ -18,9 +18,7 @@
 
 # Load any additional libraries
 library(data.table)
-library(plyr)
 library(dplyr)
-library(reshape2)
 
 # Check for and create GettingData folder
 if(!file.exists("GettingData")){
@@ -108,4 +106,4 @@ for(j in 1:length(pared_data$activity)){
 
 merged_tidy <- pared_data %>% group_by(subject_id, activity)
 means_tidy <- merged_tidy %>% summarize_each(funs(mean(., na.rm = TRUE)))
-
+write.table(means_tidy, file = "./GettingData/GettingData-CourseProject-TidyMeans.txt", row.name=FALSE)
