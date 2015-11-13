@@ -49,64 +49,60 @@ x_test <- read.table("GettingData/UCI HAR Dataset/test/x_test.txt")
 # Start preparing and mashing/merging things together
 features <- read.table("GettingData/UCI HAR Dataset/features.txt")
 features<-as.vector(features[,2])
-Subject_ID <- rbind(subject_train,subject_test)
-colnames(Subject_ID) <- "Subject_ID"
+subject_id <- rbind(subject_train,subject_test)
+colnames(subject_id) <- "subject_ID"
 #Case <- c(rep(1,7352), rep(2,2947))
-Case <- c(rep("training",7352), rep("testing",2947))
-Activity <- rbind(y_train,y_test)
-colnames(Activity) <- "Activity"
+case <- c(rep("training",7352), rep("testing",2947))
+activity <- rbind(y_train,y_test)
+colnames(activity) <- "activity"
 x_set <- rbind(x_train, x_test)
 colnames(x_set) <- features
 
 # Mash everything together like Victor Frankenstein! FrankenData!
 # Curious how big this is? run this: print(object.size(merged), units = "Mb")
-merged <- cbind(Subject_ID, Case, Activity, x_set)
+merged <- cbind(subject_id, case, activity, x_set)
 
 # Note: dplyr doesn't like column names gathered from features.txt and it needs to be fixed.
 # here is the code to fix the column names. 
-# I kind of don't like the new variable names because they're.... well... ugly.
-# But then again the features names were also pretty ugly.
 # Will need to include the fixed feature column names in the code book
 new_names<-make.names(names = names(merged), unique = TRUE, allow_ = TRUE)
+
+# Get rid of the periods and make all lower case
+for(i in 1:length(new_names)){
+        new_names[i] <- tolower(gsub("\\.","",new_names[i]))        
+}
+
 names(merged) <- new_names
 
 # Pare down the data using select() from dplyr
-pared_data<-select(merged,Subject_ID,Case,Activity,contains("mean"),contains("std"))
+pared_data<-select(merged,subject_id,case,activity,contains("mean"),contains("std"))
 
-
-
-
-
-###################################################################################################
-# Scratch Notes and code. Ignore this.
-##################################################################################################
-# Start paring the data down. We don't want all of the data as we are only 
-# interested in means and standard deviations.
-# Grep for "[Mm]ean" and "std" 
-# foo<-select(merged,contains("mean"))
-# bar<-select(merged,contains("std"))
-# featuremeans <- grep("[Mm]ean",features)
-# featurestd <- grep("std",features)
-
-#################################################################
-# Notes: 
-# Adding a new column to a data.frame
-# X$var4 <- rnorm(5) creates a new var4 column
-# Can also use cbind
-# Y <- bind(X, rnorm(5)) does the same thing
-# rbind binds rows
-#
-# Look into plyr to help pare down the data ??? Maybe ???
-#
-##################################################################
-
-
-# for(i in 1:length(featuremeans)){
-#         training <- cbind(training,x_train[features[featuremeans[i]]])
-# }
-
-#Case <- c(rep(1,7352), rep(2,2947))
-          
-
+# Fix the Activity column to reflect the actual activity names
+# I don't like this but I couldn't figure out how to do this with mutate() or transform() or some other more elegant method.
+# Activity: 1=WALKING, 2=WALKING_UPSTAIRS, 3=WALKING_DOWNSTAIRS, 4=SITTING, 5=STANDING, 6=LAYING
+for(j in 1:length(pared_data$activity)){
+        #print(pared_data[j,3])
+        if(pared_data[j,3] == 1){ 
+                pared_data[j,3] <- "WALKING"
+        }
+        else if(pared_data[j,3] == 2) {
+                pared_data[j,3] <- "WALKING_UPSTAIRS" 
+        }
+        else if(pared_data[j,3] == 3){
+                pared_data[j,3] <- "WALKING_DOWNSTAIRS" 
+        }
+        else if(pared_data[j,3] == 4) {
+                pared_data[j,3] <- "SITTING"
+        }
+        else if(pared_data[j,3] == 5) {
+                pared_data[j,3] <- "STANDING"
+        }
+        else if(pared_data[j,3] == 6) {
+                pared_data[j,3] <- "LAYING"
+        }
+        else {
+                pared_data[j,3] <- "NA"  
+        }
+}
 
 
