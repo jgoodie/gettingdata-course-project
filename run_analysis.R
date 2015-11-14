@@ -99,23 +99,33 @@ for(j in 1:length(pared_data$activity)){
                 pared_data[j,"activity"] <- "LAYING"
         }
         else {
-                # This should never happen..... of course never say never
+                # This should never happen..... of course never say never...
                 pared_data[j,"activity"] <- "NA"  
         }
 }
 
+# the paired data set with mean and standard deviations grouped by subject_id and activity
 merged_tidy <- pared_data %>% group_by(subject_id, activity)
+
+# summarized data with the mean of each variable.
 means_tidy <- merged_tidy %>% summarize_each(funs(mean(., na.rm = TRUE)))
+
+# write the data out to GettingData-CourseProject-TidyMeans.txt
 write.table(means_tidy, file = "./GettingData/GettingData-CourseProject-TidyMeans.txt", row.name=FALSE)
 
 ##############################################################################################
 #
-# stuff to help with code book
+# Extra stuff to help me write the code book
 #
+# Grab the original names from features.txt
 original_names <- c("subject_id", "activity", features)
+# Create a new data.frame with the original features names and the fixed names
 cb <- cbind(original_names, new_names)
+# make sure it's a data.frame
 cb <- as.data.frame(cb)
+# filter for only the mean and stardard deviation observations as wellas as subject_id and activity
 cb <- filter(cb, grepl("subject_id|activity|mean|std", original_names))
+#write out data fram to Codebook-features.txt. THIS IS NOT THE CODE BOOK.
 write.table(cb, file = "./GettingData/Codebook-features.txt", row.name=FALSE)
 #
 #############################################################################################
