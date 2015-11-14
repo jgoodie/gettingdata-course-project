@@ -22,164 +22,164 @@ Below is the translation from the features.txt to the variable names in GettingD
 
 Original Feature Name 				New Variable Name
 
-"subject_id"						"subject_id"
+"subject_id"----------------------->"subject_id"
 
-"activity" 							"activity"
+"activity"------------------------->"activity"
 
-"tBodyAcc-mean()-X" 				"tbodyaccmeanx"
+"tBodyAcc-mean()-X"---------------->"tbodyaccmeanx"
 
-"tBodyAcc-mean()-Y" 				"tbodyaccmeany"
+"tBodyAcc-mean()-Y"---------------->"tbodyaccmeany"
 
-"tBodyAcc-mean()-Z" 				"tbodyaccmeanz"
+"tBodyAcc-mean()-Z"---------------->"tbodyaccmeanz"
 
-"tBodyAcc-std()-X" 					"tbodyaccstdx"
+"tBodyAcc-std()-X"----------------->"tbodyaccstdx"
 
-"tBodyAcc-std()-Y" 					"tbodyaccstdy"
+"tBodyAcc-std()-Y"----------------->"tbodyaccstdy"
 
-"tBodyAcc-std()-Z" 					"tbodyaccstdz"
+"tBodyAcc-std()-Z"----------------->"tbodyaccstdz"
 
-"tGravityAcc-mean()-X" 				"tgravityaccmeanx"
+"tGravityAcc-mean()-X"------------->"tgravityaccmeanx"
 
-"tGravityAcc-mean()-Y" 				"tgravityaccmeany"
+"tGravityAcc-mean()-Y"------------->"tgravityaccmeany"
 
-"tGravityAcc-mean()-Z" 				"tgravityaccmeanz"
+"tGravityAcc-mean()-Z"------------->"tgravityaccmeanz"
 
-"tGravityAcc-std()-X" 				"tgravityaccstdx"
+"tGravityAcc-std()-X"-------------->"tgravityaccstdx"
 
-"tGravityAcc-std()-Y" 				"tgravityaccstdy"
+"tGravityAcc-std()-Y"-------------->"tgravityaccstdy"
 
-"tGravityAcc-std()-Z" 				"tgravityaccstdz"
+"tGravityAcc-std()-Z"-------------->"tgravityaccstdz"
 
-"tBodyAccJerk-mean()-X" 			"tbodyaccjerkmeanx"
+"tBodyAccJerk-mean()-X"------------>"tbodyaccjerkmeanx"
 
-"tBodyAccJerk-mean()-Y" 			"tbodyaccjerkmeany"
+"tBodyAccJerk-mean()-Y"------------>"tbodyaccjerkmeany"
 
-"tBodyAccJerk-mean()-Z" 			"tbodyaccjerkmeanz"
+"tBodyAccJerk-mean()-Z"------------>"tbodyaccjerkmeanz"
 
-"tBodyAccJerk-std()-X" 				"tbodyaccjerkstdx"
+"tBodyAccJerk-std()-X"------------->"tbodyaccjerkstdx"
 
-"tBodyAccJerk-std()-Y" 				"tbodyaccjerkstdy"
+"tBodyAccJerk-std()-Y"------------->"tbodyaccjerkstdy"
 
-"tBodyAccJerk-std()-Z" 				"tbodyaccjerkstdz"
+"tBodyAccJerk-std()-Z"------------->"tbodyaccjerkstdz"
 
-"tBodyGyro-mean()-X" 				"tbodygyromeanx"
+"tBodyGyro-mean()-X"--------------->"tbodygyromeanx"
 
-"tBodyGyro-mean()-Y" 				"tbodygyromeany"
+"tBodyGyro-mean()-Y"--------------->"tbodygyromeany"
 
-"tBodyGyro-mean()-Z" 				"tbodygyromeanz"
+"tBodyGyro-mean()-Z"--------------->"tbodygyromeanz"
 
-"tBodyGyro-std()-X" 				"tbodygyrostdx"
+"tBodyGyro-std()-X"---------------->"tbodygyrostdx"
 
-"tBodyGyro-std()-Y" 				"tbodygyrostdy"
+"tBodyGyro-std()-Y"---------------->"tbodygyrostdy"
 
-"tBodyGyro-std()-Z" 				"tbodygyrostdz"
+"tBodyGyro-std()-Z"---------------->"tbodygyrostdz"
 
-"tBodyGyroJerk-mean()-X" 			"tbodygyrojerkmeanx"
+"tBodyGyroJerk-mean()-X"----------->"tbodygyrojerkmeanx"
 
-"tBodyGyroJerk-mean()-Y" 			"tbodygyrojerkmeany"
+"tBodyGyroJerk-mean()-Y"----------->"tbodygyrojerkmeany"
 
-"tBodyGyroJerk-mean()-Z" 			"tbodygyrojerkmeanz"
+"tBodyGyroJerk-mean()-Z"----------->"tbodygyrojerkmeanz"
 
-"tBodyGyroJerk-std()-X" 			"tbodygyrojerkstdx"
+"tBodyGyroJerk-std()-X"------------>"tbodygyrojerkstdx"
 
-"tBodyGyroJerk-std()-Y" 			"tbodygyrojerkstdy"
+"tBodyGyroJerk-std()-Y"------------>"tbodygyrojerkstdy"
 
-"tBodyGyroJerk-std()-Z" 			"tbodygyrojerkstdz"
+"tBodyGyroJerk-std()-Z"------------>"tbodygyrojerkstdz"
 
-"tBodyAccMag-mean()" 				"tbodyaccmagmean"
+"tBodyAccMag-mean()"--------------->"tbodyaccmagmean"
 
-"tBodyAccMag-std()" 				"tbodyaccmagstd"
+"tBodyAccMag-std()"---------------->"tbodyaccmagstd"
 
-"tGravityAccMag-mean()" 			"tgravityaccmagmean"
+"tGravityAccMag-mean()"------------>"tgravityaccmagmean"
 
-"tGravityAccMag-std()" 				"tgravityaccmagstd"
+"tGravityAccMag-std()"------------->"tgravityaccmagstd"
 
-"tBodyAccJerkMag-mean()" 			"tbodyaccjerkmagmean"
+"tBodyAccJerkMag-mean()"----------->"tbodyaccjerkmagmean"
 
-"tBodyAccJerkMag-std()" 			"tbodyaccjerkmagstd"
+"tBodyAccJerkMag-std()"------------>"tbodyaccjerkmagstd"
 
-"tBodyGyroMag-mean()" 				"tbodygyromagmean"
+"tBodyGyroMag-mean()"-------------->"tbodygyromagmean"
 
-"tBodyGyroMag-std()" 				"tbodygyromagstd"
+"tBodyGyroMag-std()"--------------->"tbodygyromagstd"
 
-"tBodyGyroJerkMag-mean()" 			"tbodygyrojerkmagmean"
+"tBodyGyroJerkMag-mean()"---------->"tbodygyrojerkmagmean"
 
-"tBodyGyroJerkMag-std()" 			"tbodygyrojerkmagstd"
+"tBodyGyroJerkMag-std()"----------->"tbodygyrojerkmagstd"
 
-"fBodyAcc-mean()-X" 				"fbodyaccmeanx"
+"fBodyAcc-mean()-X"---------------->"fbodyaccmeanx"
 
-"fBodyAcc-mean()-Y" 				"fbodyaccmeany"
+"fBodyAcc-mean()-Y"---------------->"fbodyaccmeany"
 
-"fBodyAcc-mean()-Z" 				"fbodyaccmeanz"
+"fBodyAcc-mean()-Z"---------------->"fbodyaccmeanz"
 
-"fBodyAcc-std()-X" 					"fbodyaccstdx"
+"fBodyAcc-std()-X"----------------->"fbodyaccstdx"
 
-"fBodyAcc-std()-Y" 					"fbodyaccstdy"
+"fBodyAcc-std()-Y"----------------->"fbodyaccstdy"
 
-"fBodyAcc-std()-Z" 					"fbodyaccstdz"
+"fBodyAcc-std()-Z"----------------->"fbodyaccstdz"
 
-"fBodyAcc-meanFreq()-X" 			"fbodyaccmeanfreqx"
+"fBodyAcc-meanFreq()-X"------------>"fbodyaccmeanfreqx"
 
-"fBodyAcc-meanFreq()-Y" 			"fbodyaccmeanfreqy"
+"fBodyAcc-meanFreq()-Y"------------>"fbodyaccmeanfreqy"
 
-"fBodyAcc-meanFreq()-Z" 			"fbodyaccmeanfreqz"
+"fBodyAcc-meanFreq()-Z"------------>"fbodyaccmeanfreqz"
 
-"fBodyAccJerk-mean()-X" 			"fbodyaccjerkmeanx"
+"fBodyAccJerk-mean()-X"------------>"fbodyaccjerkmeanx"
 
-"fBodyAccJerk-mean()-Y" 			"fbodyaccjerkmeany"
+"fBodyAccJerk-mean()-Y"------------>"fbodyaccjerkmeany"
 
-"fBodyAccJerk-mean()-Z" 			"fbodyaccjerkmeanz"
+"fBodyAccJerk-mean()-Z"------------>"fbodyaccjerkmeanz"
 
-"fBodyAccJerk-std()-X" 				"fbodyaccjerkstdx"
+"fBodyAccJerk-std()-X"------------->"fbodyaccjerkstdx"
 
-"fBodyAccJerk-std()-Y" 				"fbodyaccjerkstdy"
+"fBodyAccJerk-std()-Y"------------->"fbodyaccjerkstdy"
 
-"fBodyAccJerk-std()-Z" 				"fbodyaccjerkstdz"
+"fBodyAccJerk-std()-Z"------------->"fbodyaccjerkstdz"
 
-"fBodyAccJerk-meanFreq()-X" 		"fbodyaccjerkmeanfreqx"
+"fBodyAccJerk-meanFreq()-X"-------->"fbodyaccjerkmeanfreqx"
 
-"fBodyAccJerk-meanFreq()-Y" 		"fbodyaccjerkmeanfreqy"
+"fBodyAccJerk-meanFreq()-Y"-------->"fbodyaccjerkmeanfreqy"
 
-"fBodyAccJerk-meanFreq()-Z" 		"fbodyaccjerkmeanfreqz"
+"fBodyAccJerk-meanFreq()-Z"-------->"fbodyaccjerkmeanfreqz"
 
-"fBodyGyro-mean()-X" 				"fbodygyromeanx"
+"fBodyGyro-mean()-X"--------------->"fbodygyromeanx"
 
-"fBodyGyro-mean()-Y" 				"fbodygyromeany"
+"fBodyGyro-mean()-Y"--------------->"fbodygyromeany"
 
-"fBodyGyro-mean()-Z" 				"fbodygyromeanz"
+"fBodyGyro-mean()-Z"--------------->"fbodygyromeanz"
 
-"fBodyGyro-std()-X" 				"fbodygyrostdx"
+"fBodyGyro-std()-X"---------------->"fbodygyrostdx"
 
-"fBodyGyro-std()-Y" 				"fbodygyrostdy"
+"fBodyGyro-std()-Y"---------------->"fbodygyrostdy"
 
-"fBodyGyro-std()-Z" 				"fbodygyrostdz"
+"fBodyGyro-std()-Z"---------------->"fbodygyrostdz"
 
-"fBodyGyro-meanFreq()-X" 			"fbodygyromeanfreqx"
+"fBodyGyro-meanFreq()-X"----------->"fbodygyromeanfreqx"
 
-"fBodyGyro-meanFreq()-Y" 			"fbodygyromeanfreqy"
+"fBodyGyro-meanFreq()-Y"----------->"fbodygyromeanfreqy"
 
-"fBodyGyro-meanFreq()-Z" 			"fbodygyromeanfreqz"
+"fBodyGyro-meanFreq()-Z"----------->"fbodygyromeanfreqz"
 
-"fBodyAccMag-mean()" 				"fbodyaccmagmean"
+"fBodyAccMag-mean()"--------------->"fbodyaccmagmean"
 
-"fBodyAccMag-std()" 				"fbodyaccmagstd"
+"fBodyAccMag-std()"---------------->"fbodyaccmagstd"
 
-"fBodyAccMag-meanFreq()"			"fbodyaccmagmeanfreq"
+"fBodyAccMag-meanFreq()"----------->"fbodyaccmagmeanfreq"
 
-"fBodyBodyAccJerkMag-mean()" 		"fbodybodyaccjerkmagmean"
+"fBodyBodyAccJerkMag-mean()"------->"fbodybodyaccjerkmagmean"
 
-"fBodyBodyAccJerkMag-std()" 		"fbodybodyaccjerkmagstd"
+"fBodyBodyAccJerkMag-std()"-------->"fbodybodyaccjerkmagstd"
 
-"fBodyBodyAccJerkMag-meanFreq()" 	"fbodybodyaccjerkmagmeanfreq"
+"fBodyBodyAccJerkMag-meanFreq()"--->"fbodybodyaccjerkmagmeanfreq"
 
-"fBodyBodyGyroMag-mean()" 			"fbodybodygyromagmean"
+"fBodyBodyGyroMag-mean()"---------->"fbodybodygyromagmean"
 
-"fBodyBodyGyroMag-std()" 			"fbodybodygyromagstd"
+"fBodyBodyGyroMag-std()"----------->"fbodybodygyromagstd"
 
-"fBodyBodyGyroMag-meanFreq()" 		"fbodybodygyromagmeanfreq"
+"fBodyBodyGyroMag-meanFreq()"------>"fbodybodygyromagmeanfreq"
 
-"fBodyBodyGyroJerkMag-mean()" 		"fbodybodygyrojerkmagmean"
+"fBodyBodyGyroJerkMag-mean()"------>"fbodybodygyrojerkmagmean"
 
-"fBodyBodyGyroJerkMag-std()" 		"fbodybodygyrojerkmagstd"
+"fBodyBodyGyroJerkMag-std()"------->"fbodybodygyrojerkmagstd"
 
-"fBodyBodyGyroJerkMag-meanFreq()" 	"fbodybodygyrojerkmagmeanfreq"
+"fBodyBodyGyroJerkMag-meanFreq()"-->"fbodybodygyrojerkmagmeanfreq"
