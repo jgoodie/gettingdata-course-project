@@ -107,3 +107,15 @@ for(j in 1:length(pared_data$activity)){
 merged_tidy <- pared_data %>% group_by(subject_id, activity)
 means_tidy <- merged_tidy %>% summarize_each(funs(mean(., na.rm = TRUE)))
 write.table(means_tidy, file = "./GettingData/GettingData-CourseProject-TidyMeans.txt", row.name=FALSE)
+
+##############################################################################################
+#
+# stuff to help with code book
+#
+original_names <- c("subject_id", "activity", features)
+cb <- cbind(original_names, new_names)
+cb <- as.data.frame(cb)
+cb <- filter(cb, grepl("subject_id|activity|mean|std", original_names))
+write.table(cb, file = "./GettingData/Codebook-features.txt", row.name=FALSE)
+#
+#############################################################################################

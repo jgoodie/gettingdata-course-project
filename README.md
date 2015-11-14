@@ -15,3 +15,6 @@ pared_data variable in the script. The data is then ordered by subject_id and ac
 merged_tidy variable in the script. Finally the the mean is taken for all the observations and written to
 GettingData-CourseProject-TidyMeans.txt
 
+
+Code Book: CodeBook-TidyMeans.md
+
