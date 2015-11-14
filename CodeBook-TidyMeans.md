@@ -21,84 +21,165 @@ Below is the translation from the features.txt to the variable names in GettingD
 
 
 Original Feature Name 				New Variable Name
+
 "subject_id"						"subject_id"
+
 "activity" 							"activity"
+
 "tBodyAcc-mean()-X" 				"tbodyaccmeanx"
+
 "tBodyAcc-mean()-Y" 				"tbodyaccmeany"
+
 "tBodyAcc-mean()-Z" 				"tbodyaccmeanz"
+
 "tBodyAcc-std()-X" 					"tbodyaccstdx"
+
 "tBodyAcc-std()-Y" 					"tbodyaccstdy"
+
 "tBodyAcc-std()-Z" 					"tbodyaccstdz"
+
 "tGravityAcc-mean()-X" 				"tgravityaccmeanx"
+
 "tGravityAcc-mean()-Y" 				"tgravityaccmeany"
+
 "tGravityAcc-mean()-Z" 				"tgravityaccmeanz"
+
 "tGravityAcc-std()-X" 				"tgravityaccstdx"
+
 "tGravityAcc-std()-Y" 				"tgravityaccstdy"
+
 "tGravityAcc-std()-Z" 				"tgravityaccstdz"
+
 "tBodyAccJerk-mean()-X" 			"tbodyaccjerkmeanx"
+
 "tBodyAccJerk-mean()-Y" 			"tbodyaccjerkmeany"
+
 "tBodyAccJerk-mean()-Z" 			"tbodyaccjerkmeanz"
+
 "tBodyAccJerk-std()-X" 				"tbodyaccjerkstdx"
+
 "tBodyAccJerk-std()-Y" 				"tbodyaccjerkstdy"
+
 "tBodyAccJerk-std()-Z" 				"tbodyaccjerkstdz"
+
 "tBodyGyro-mean()-X" 				"tbodygyromeanx"
+
 "tBodyGyro-mean()-Y" 				"tbodygyromeany"
+
 "tBodyGyro-mean()-Z" 				"tbodygyromeanz"
+
 "tBodyGyro-std()-X" 				"tbodygyrostdx"
+
 "tBodyGyro-std()-Y" 				"tbodygyrostdy"
+
 "tBodyGyro-std()-Z" 				"tbodygyrostdz"
+
 "tBodyGyroJerk-mean()-X" 			"tbodygyrojerkmeanx"
+
 "tBodyGyroJerk-mean()-Y" 			"tbodygyrojerkmeany"
+
 "tBodyGyroJerk-mean()-Z" 			"tbodygyrojerkmeanz"
+
 "tBodyGyroJerk-std()-X" 			"tbodygyrojerkstdx"
+
 "tBodyGyroJerk-std()-Y" 			"tbodygyrojerkstdy"
+
 "tBodyGyroJerk-std()-Z" 			"tbodygyrojerkstdz"
+
 "tBodyAccMag-mean()" 				"tbodyaccmagmean"
+
 "tBodyAccMag-std()" 				"tbodyaccmagstd"
+
 "tGravityAccMag-mean()" 			"tgravityaccmagmean"
+
 "tGravityAccMag-std()" 				"tgravityaccmagstd"
+
 "tBodyAccJerkMag-mean()" 			"tbodyaccjerkmagmean"
+
 "tBodyAccJerkMag-std()" 			"tbodyaccjerkmagstd"
+
 "tBodyGyroMag-mean()" 				"tbodygyromagmean"
+
 "tBodyGyroMag-std()" 				"tbodygyromagstd"
+
 "tBodyGyroJerkMag-mean()" 			"tbodygyrojerkmagmean"
+
 "tBodyGyroJerkMag-std()" 			"tbodygyrojerkmagstd"
+
 "fBodyAcc-mean()-X" 				"fbodyaccmeanx"
+
 "fBodyAcc-mean()-Y" 				"fbodyaccmeany"
+
 "fBodyAcc-mean()-Z" 				"fbodyaccmeanz"
+
 "fBodyAcc-std()-X" 					"fbodyaccstdx"
+
 "fBodyAcc-std()-Y" 					"fbodyaccstdy"
+
 "fBodyAcc-std()-Z" 					"fbodyaccstdz"
+
 "fBodyAcc-meanFreq()-X" 			"fbodyaccmeanfreqx"
+
 "fBodyAcc-meanFreq()-Y" 			"fbodyaccmeanfreqy"
+
 "fBodyAcc-meanFreq()-Z" 			"fbodyaccmeanfreqz"
+
 "fBodyAccJerk-mean()-X" 			"fbodyaccjerkmeanx"
+
 "fBodyAccJerk-mean()-Y" 			"fbodyaccjerkmeany"
+
 "fBodyAccJerk-mean()-Z" 			"fbodyaccjerkmeanz"
+
 "fBodyAccJerk-std()-X" 				"fbodyaccjerkstdx"
+
 "fBodyAccJerk-std()-Y" 				"fbodyaccjerkstdy"
+
 "fBodyAccJerk-std()-Z" 				"fbodyaccjerkstdz"
+
 "fBodyAccJerk-meanFreq()-X" 		"fbodyaccjerkmeanfreqx"
+
 "fBodyAccJerk-meanFreq()-Y" 		"fbodyaccjerkmeanfreqy"
+
 "fBodyAccJerk-meanFreq()-Z" 		"fbodyaccjerkmeanfreqz"
+
 "fBodyGyro-mean()-X" 				"fbodygyromeanx"
+
 "fBodyGyro-mean()-Y" 				"fbodygyromeany"
+
 "fBodyGyro-mean()-Z" 				"fbodygyromeanz"
+
 "fBodyGyro-std()-X" 				"fbodygyrostdx"
+
 "fBodyGyro-std()-Y" 				"fbodygyrostdy"
+
 "fBodyGyro-std()-Z" 				"fbodygyrostdz"
+
 "fBodyGyro-meanFreq()-X" 			"fbodygyromeanfreqx"
+
 "fBodyGyro-meanFreq()-Y" 			"fbodygyromeanfreqy"
+
 "fBodyGyro-meanFreq()-Z" 			"fbodygyromeanfreqz"
+
 "fBodyAccMag-mean()" 				"fbodyaccmagmean"
+
 "fBodyAccMag-std()" 				"fbodyaccmagstd"
+
 "fBodyAccMag-meanFreq()"			"fbodyaccmagmeanfreq"
+
 "fBodyBodyAccJerkMag-mean()" 		"fbodybodyaccjerkmagmean"
+
 "fBodyBodyAccJerkMag-std()" 		"fbodybodyaccjerkmagstd"
+
 "fBodyBodyAccJerkMag-meanFreq()" 	"fbodybodyaccjerkmagmeanfreq"
+
 "fBodyBodyGyroMag-mean()" 			"fbodybodygyromagmean"
+
 "fBodyBodyGyroMag-std()" 			"fbodybodygyromagstd"
+
 "fBodyBodyGyroMag-meanFreq()" 		"fbodybodygyromagmeanfreq"
+
 "fBodyBodyGyroJerkMag-mean()" 		"fbodybodygyrojerkmagmean"
+
 "fBodyBodyGyroJerkMag-std()" 		"fbodybodygyrojerkmagstd"
+
 "fBodyBodyGyroJerkMag-meanFreq()" 	"fbodybodygyrojerkmagmeanfreq"
