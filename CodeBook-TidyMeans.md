@@ -16,6 +16,11 @@ case. The data set is then pared down to only the mean and standard deviation ob
 "merged_tidy" variable in the script. Finally the the mean is taken for all the observations, stored in the 
 "means_tidy" variable and written to the file GettingData-CourseProject-TidyMeans.txt
 
+subject_id is the ID of the test subject
+
+activity is the the activity the test subjects performed: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+The variables below are only the mean and standard deviation observations taken from the features.txt file.
 
 Below is the translation from the features.txt to the variable names in GettingData-CourseProject-TidyMeans.txt
 
